@@ -130,8 +130,8 @@
 .btnTwitch {
   font-size: 1rem;
   font-weight: bold;
-  background-color: #8000ae;
-  color: #FFF;
+  background-color: #FFF;
+  color: #8000ae;
   border: none;
   border-radius: 5px;
   padding: 0 0.7rem;
@@ -140,8 +140,8 @@
 }
 .btnTwitch:hover {
 
-  background-color: #FFF;
-  color: #8000ae;
+  background-color: #8000ae;
+  color: #FFF;
   -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
  
