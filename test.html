@@ -12,12 +12,22 @@
     <h1>alejo2k2x</h1>
     <script>
         let userTwitch = document.querySelector('h1').textContent
-        fetch(`https://twitchtracker.com/api/channels/summary/${userTwitch}`, {
-        }).then(function (response) {
-            return response.json();
-        }).then(function (data) {
-            console.log(data);
-        })
+
+        let headersList = {
+ "Accept": "*/*",
+ "Content-Type": "application/json",
+ "Access-Control-Allow-Origin": "https://twitchtracker.com/"
+}
+
+fetch(`https://twitchtracker.com/api/channels/summary/${userTwitch}`, { 
+  mode: 'cors',
+  headers: headersList
+}).then(function(response) {
+  return response.json();
+}).then(function(data) {+
+    console.log("data")
+  console.log(data);
+})
     </script>
 </body>
 

@@ -18252,6 +18252,7 @@ input[type=button].btn-block {
 .btn--landing.btn-primary {
   -webkit-box-shadow: 0 0 40px 2px rgba(163, 255, 18, 0.2);
           box-shadow: 0 0 40px 2px rgba(163, 255, 18, 0.2);
+          border-radius: 20px;
 }
 .btn--landing.btn-primary::before {
   background-color: #90eb00;
