@@ -1,31 +1,25 @@
 
-
+/*IMG Fondo*/
+.bg--texture-06 {
+  background-image: url(../img/bg-texture-06.jpg);
+}
 /*Username Comunidad*/
 .usernameLosK{
   font-weight: bold;
   color: white;
-  transform: rotate(-45deg) !important;
+  /* transform: rotate(-45deg) !important; */
   position: absolute;
-  top: 60px;
-  left: 0;
+  bottom: -78px;
+  /* left: 72px; */
+  width: 87%;
 }
 .userPais{
   width: 20px;
 }
 
-@media screen and (max-width: 1919.99px) {
-  .usernameLosK{
-    top: -6px;
-    left: -2px;
-  }
-}
 @media screen and (max-width: 1199.99px) {
   .usernameLosK{
     font-size: 10px;
-  }
-  .usernameLosK{
-    top: -14px;
-    left: 3px;
   }
   .userPais{
     width: 10px;
@@ -35,10 +29,6 @@
   .usernameLosK{
     font-size: 22px;
   }
-  .usernameLosK{
-    top: 6px;
-    left: -10px;
-  }
   .userPais{
     width: 22px;
   }
@@ -46,10 +36,6 @@
 @media screen and (max-width: 767.99px) {
   .usernameLosK{
     font-size: 22px;
-  }
-  .usernameLosK{
-    top: -15px;
-    left: -22px;
   }
   .userPais{
     width: 22px;
@@ -60,10 +46,6 @@
   .usernameLosK{
     font-size: 15px;
   }
-  .usernameLosK{
-    top: -15px;
-    left: 2px;
-}
   .userPais{
     width: 15px;
   }
@@ -74,10 +56,6 @@
   .usernameLosK{
     font-size: 15px;
   }
-  .usernameLosK{
-    top: -23px;
-    left: 1px;
-}
   .userPais{
     width: 15px;
   }
@@ -87,10 +65,6 @@
   .usernameLosK{
     font-size: 15px;
   }
-  .usernameLosK{
-    top: -28px;
-    left: -6px;
-}
   .userPais{
     width: 15px;
   }
@@ -100,10 +74,6 @@
   .usernameLosK{
     font-size: 15px;
   }
-  .usernameLosK{
-    top: -21px;
-    left: -1px;
-}
   .userPais{
     width: 15px;
   }
@@ -132,4 +102,24 @@
     .imgPublicidad{
       display: none;
     }
+}
+
+.btnTwitch {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #8000ae;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 0 0.7rem;
+  -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.btnTwitch:hover {
+
+  background-color: #FFF;
+  color: #8000ae;
+  -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+ 
 }
