@@ -1,0 +1,135 @@
+
+
+/*Username Comunidad*/
+.usernameLosK{
+  font-weight: bold;
+  color: white;
+  transform: rotate(-45deg) !important;
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+.userPais{
+  width: 20px;
+}
+
+@media screen and (max-width: 1919.99px) {
+  .usernameLosK{
+    top: -6px;
+    left: -2px;
+  }
+}
+@media screen and (max-width: 1199.99px) {
+  .usernameLosK{
+    font-size: 10px;
+  }
+  .usernameLosK{
+    top: -14px;
+    left: 3px;
+  }
+  .userPais{
+    width: 10px;
+  }
+}
+@media screen and (max-width: 991.99px) {
+  .usernameLosK{
+    font-size: 22px;
+  }
+  .usernameLosK{
+    top: 6px;
+    left: -10px;
+  }
+  .userPais{
+    width: 22px;
+  }
+}
+@media screen and (max-width: 767.99px) {
+  .usernameLosK{
+    font-size: 22px;
+  }
+  .usernameLosK{
+    top: -15px;
+    left: -22px;
+  }
+  .userPais{
+    width: 22px;
+  }
+}
+
+@media screen and (max-width: 520.99px) {
+  .usernameLosK{
+    font-size: 15px;
+  }
+  .usernameLosK{
+    top: -15px;
+    left: 2px;
+}
+  .userPais{
+    width: 15px;
+  }
+}
+
+
+@media screen and (max-width: 446.99px) {
+  .usernameLosK{
+    font-size: 15px;
+  }
+  .usernameLosK{
+    top: -23px;
+    left: 1px;
+}
+  .userPais{
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 410.99px) {
+  .usernameLosK{
+    font-size: 15px;
+  }
+  .usernameLosK{
+    top: -28px;
+    left: -6px;
+}
+  .userPais{
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 320.99px) {
+  .usernameLosK{
+    font-size: 15px;
+  }
+  .usernameLosK{
+    top: -21px;
+    left: -1px;
+}
+  .userPais{
+    width: 15px;
+  }
+}
+
+.slick-dots{
+    border: 2px solid;
+    padding: 20px !important;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:364px) and (max-width: 1199.99px) {
+  .team-carousel__item{
+    margin-top: 40px !important;
+  }
+}
+
+.imgPublicidad{
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width:767.99px) {
+    .imgPublicidad{
+      display: none;
+    }
+}
