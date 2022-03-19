@@ -3,6 +3,8 @@
 .bg--texture-06 {
   background-image: url(../img/bg-texture-06.jpg);
 }
+
+
 /*Username Comunidad*/
 .usernameLosK{
   font-weight: bold;
@@ -17,14 +19,31 @@
   width: 20px;
 }
 
-@media screen and (max-width: 1199.99px) {
+@media screen and (min-width: 1200px) {
   .usernameLosK{
-    font-size: 10px;
+    font-size: 15px;
+    bottom: -66px;
   }
   .userPais{
     width: 10px;
   }
+  .btnTwitch {
+  font-size: .7rem;
+  }
 }
+@media screen and (max-width: 1199.99px) {
+  .usernameLosK{
+    font-size: 15px;
+    bottom: -69px;
+  }
+  .userPais{
+    width: 10px;
+  }
+  .btnTwitch {
+  font-size: .7rem;
+  }
+}
+
 @media screen and (max-width: 991.99px) {
   .usernameLosK{
     font-size: 22px;
@@ -45,6 +64,7 @@
 @media screen and (max-width: 520.99px) {
   .usernameLosK{
     font-size: 15px;
+    bottom: -66px;
   }
   .userPais{
     width: 15px;
@@ -55,6 +75,7 @@
 @media screen and (max-width: 446.99px) {
   .usernameLosK{
     font-size: 15px;
+    bottom: -65px;
   }
   .userPais{
     width: 15px;
@@ -64,6 +85,7 @@
 @media screen and (max-width: 410.99px) {
   .usernameLosK{
     font-size: 15px;
+    bottom: -65px;
   }
   .userPais{
     width: 15px;
@@ -73,6 +95,7 @@
 @media screen and (max-width: 320.99px) {
   .usernameLosK{
     font-size: 15px;
+    bottom: -65px;
   }
   .userPais{
     width: 15px;
