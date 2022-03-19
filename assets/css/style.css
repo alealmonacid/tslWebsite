@@ -25931,7 +25931,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #222430;
+  background-color: #000000;
 }
 
 .bg-fixed {
@@ -35116,7 +35116,7 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   color: #fff;
-  background-color: #151720;
+  background-color: #FFFFFF;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -35126,7 +35126,8 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
 }
 .team-selection-item--style-1 .team-selection-item__thumbnail {
   padding-bottom: calc(70% - 16px);
-  border: 8px solid #3d4055;
+  border: 8px solid #8000ae;
+  border-radius: 10px;
 }
 @media (min-width: 1920px) {
   .team-selection-item--style-1 .team-selection-item__thumbnail {
@@ -35141,7 +35142,7 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
 .team-selection-item--style-2 .team-selection-item__thumbnail::after {
   content: "";
   position: absolute;
-  border: 8px solid #3d4055;
+  border: 8px solid #8000ae;
   top: 0;
   left: 0;
   width: 100%;
